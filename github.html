@@ -1,0 +1,243 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ElectroStore - Electronics Shop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #14213d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #0077b6;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: #caf0f8;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .banner h2 {
+            font-size: 35px;
+            color: #14213d;
+        }
+
+        .banner p {
+            font-size: 18px;
+            margin: 15px;
+        }
+
+        /* Products */
+        .products {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .products h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .product {
+            background-color: white;
+            width: 230px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .product h3 {
+            margin: 15px 0;
+        }
+
+        .product p {
+            color: #0077b6;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .product button {
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #14213d;
+        }
+
+        /* About */
+        .about {
+            background-color: #e0f7fa;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 15px;
+        }
+
+        /* Contact */
+        .contact {
+            padding: 40px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .contact h2 {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #14213d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>ElectroStore</h1>
+        <p>Your One Stop Electronics Shop</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home -->
+    <section class="banner" id="home">
+        <h2>Welcome to ElectroStore</h2>
+        <p>Discover the Latest Electronics at Great Prices!</p>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+
+        <div class="product-container">
+
+            <div class="product">
+                <img src="https://placehold.co/250x150?text=Smartphone"
+                alt="Smartphone">
+                <h3>Smartphone</h3>
+                <p>₹15,999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/250x150?text=Laptop"
+                alt="Laptop">
+                <h3>Laptop</h3>
+                <p>₹45,999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/250x150?text=Headphones"
+                alt="Headphones">
+                <h3>Headphones</h3>
+                <p>₹1,999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/250x150?text=Smart+Watch"
+                alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p>₹2,999</p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            ElectroStore is an electronics shopping website.
+            We provide quality electronic products at affordable prices.
+            Our goal is to make shopping easy and convenient.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: electrostore@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address: Rajkot, Gujarat, India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2026 ElectroStore. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
